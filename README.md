@@ -4,8 +4,20 @@ A skill repository for a "Technical Co-Founder" workflow, designed to help turn 
 
 ## Installation (Recommended)
 ```bash
+npx skills add https://github.com/NeverSight/CTO-SKILLS.git --skill technical-cofounder
+```
+
+If your environment prefers the non-`.git` URL, this also works:
+
+```bash
 npx skills add https://github.com/NeverSight/CTO-SKILLS --skill technical-cofounder
 ```
+
+## Included Skill
+
+- `technical-cofounder`
+- Source path: `skills/.curated/technical-cofounder/SKILL.md`
+- Local authoring path: `.claude/skills/technical-cofounder/SKILL.md`
 
 ## Design Principles
 
